@@ -49,12 +49,12 @@ else
 Console.Write("Input an integer number: ");
 int  num = Convert.ToInt32(Console.ReadLine());
 
-int current = 1;
+int current = 2;
 
 while(current <= num)
 {
-    if (current%2 == 0)
+    
     Console.Write(current + " ");
-    current ++;
+    current = current + 2;
     }
 */
